@@ -1,0 +1,17 @@
+{
+  "name": "dahua-timesync",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "bun index.ts",
+    "build": "bun build --compile index.ts --outfile dahua-timesync"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.5.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
